@@ -1,0 +1,18 @@
+// const [items, setItems] = useState([
+  //   { id: uuid(), name: "Milk" },
+  //   { id: uuid(), name: "Bread" },
+  //   { id: uuid(), name: "Wheat" },
+  //   { id: uuid(), name: "Candy" },
+  // ]);
+
+
+  
+const initialState = {
+  items: [
+    { id: uuid(), name: "Milk" },
+    { id: uuid(), name: "Bread" },
+    { id: uuid(), name: "Wheat" },
+    { id: uuid(), name: "Candy" },
+  ],
+  loading: false,
+};
